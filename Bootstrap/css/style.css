@@ -1,0 +1,94 @@
+
+
+
+html{font-size: 10px}
+@media only screen and (max-width:1024px) {
+	html {
+		font-size: 9.411764705882353px;
+	}}
+
+body{width: 100%;
+	background: #151515;
+	font-family: "lora-regular", serif;
+	font-size: 1.7rem;
+	line-height: 3rem;
+	color: #6e6e6e;	}
+
+h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
+	font-family: "poppins-semibold", sans-serif;
+	color: #EE82EE;
+	font-size: 10.5rem;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	margin-bottom: 2.1rem;
+}
+
+
+h5, .h05, h6, .h06 {
+	font-family: "poppins-bold";
+	margin-bottom: 1.2rem;
+}
+
+
+.row{
+	padding: 0 20px 0 20px;
+	width: 100%;
+	max-width:1200px;
+	margin:0;
+}
+
+
+
+
+img{width:200px; height:200px;}
+a, a:visited{
+	color: #000000;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+}
+
+a:focus, a:active, a:hover{
+	color: #EE82EE;
+	outline: 0;
+}
+/** the header section **/
+header{position: fixed;
+		width: 100%;
+		min-height: 66px;
+		z-index: 600}
+header .row{
+		position: relative;
+		min-height: 66px;
+			}
+header .top-bar{
+		position: absolute;
+		display: block;
+		min-height: 66px;
+		min-width: 220px;
+		background: #000000;
+		left: 90px;
+		top:0;
+			}
+header .logo{
+		position: relative;
+		margin-left: 20px;
+		margin-right: 50px;
+		float: left;
+		margin-top: 25px;
+		}
+header .logo a{
+		display: block;
+		margin:0;
+		padding: 0;
+		border: none;
+		font:0/0 a;
+		color: transparent;
+		width: 92px;
+		height: 15px;
+		text-shadow:none;
+		background: url(../../Images/logo.png) no-repeat center;
+		background-size: 92px 15px;
+		}
