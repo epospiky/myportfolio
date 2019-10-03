@@ -1407,14 +1407,57 @@ footer a:hover{
 	}
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:746px) {
 	#portfolio .col-md-4{
 		width: 100%;
 		
 	}
 	#intro{
-	background: #ffffff;
 	height: 100vh;
 	}
-	
+	.intro-content h1{
+		color: #FFFFFF;
+		font-size: 4.4rem;
+		line-height: .071;
+		top:0;
+		bottom: 4.6rem;
+		}
+.intro-content h5{
+		color: #EE82EE;
+		font-family:"poppins-bold",sans-serif;
+		font-size: 1.3rem;
+		letter-spacing: .3rem;
+		line-height: .565;
+		bottom: .6rem;
+		
+		}
+		.intro-content .intro-position{
+		font-size: 1rem;
+		line-height: 2.4rem;
+		text-transform: uppercase;
+		letter-spacing: .2rem;
+		color: #FFFFFF;
+}
+		.col-md-6{
+			width: 100%;
+		}
+		.col-md-6 h3{
+			text-align: center;
+		}
+		.intro-info {
+			margin-left: 20px!important;
+			margin-left: 20px!important;
+			margin-left: auto;
+			margin-right: auto;
+			}
+		.section-intro h1{
+			font-size: 3rem;
+		}	
+		.section-intro h5{
+			font-size: 2rem;
+		}
+
+
+
+
 }
