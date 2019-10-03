@@ -241,7 +241,7 @@ header .logo a{
 
 
 /** for intro section **/
-#intro{
+#into{
 	background:#151515 url("../../Images/intro-bg.jpg") no-repeat center bottom;
 	background-size: cover;
 	-moz-background-size: cover;
@@ -521,3 +521,4 @@ line-height: 1;
 body{
 	background: black;
 }
+
