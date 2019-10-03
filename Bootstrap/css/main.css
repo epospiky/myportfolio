@@ -539,7 +539,7 @@ header .logo a{
 
 /** for intro section **/
 #intro{
-	background:#151515 url("../../Images/intro-bg.jpg") no-repeat center bottom;
+	background:#151515 url("../../Images/farzad.jpg") no-repeat center bottom;
 	background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1042,7 +1042,8 @@ transition:0.4s ease-in-out;
 .services-wrap{
 	height: 100%;
 	width: 100%;
-	padding: 50px 0;
+	padding: 40px 0;
+	padding-top: 7px;
 	border: 1px solid #000000;
 	border-radius: 50%;
 	text-align: center;
@@ -1054,8 +1055,18 @@ transition:0.4s ease-in-out;
 	
 }
 .services-wrap i{
-	margin-top:40px;
+	margin: 0;
+	padding: 0;
+	margin-top:10px;
+	width: 80px;
+	height: 80px;
 	transition:all 0.5s ease-in-out; 
+}
+.services-wrap i>img{
+	width: inherit;
+	height: inherit;
+	padding: 0;
+	margin: 0
 }
 .services-wrap p {
 	padding: 0px 40px;
@@ -1189,6 +1200,7 @@ button.submitform{
 	font-size: 1.5rem;
 	height:3rem;
 	border: none;
+	border-radius: 5px;
 	color: #313131;
 	background:#EE82EE; 
 	transition:0.5s ease-in-out;
@@ -1425,21 +1437,28 @@ footer a:hover{
 .intro-content h5{
 		color: #EE82EE;
 		font-family:"poppins-bold",sans-serif;
-		font-size: 1.3rem;
+		font-size: 2rem;
 		letter-spacing: .3rem;
 		line-height: .565;
 		bottom: .6rem;
 		
 		}
 		.intro-content .intro-position{
-		font-size: 1rem;
+		font-size: 1.4rem;
 		line-height: 2.4rem;
 		text-transform: uppercase;
-		letter-spacing: .2rem;
+		letter-spacing: .1rem;
 		color: #FFFFFF;
-}
+		}
+		.intro-items h1, .intro-items h5, .intro-items p, .intro-items a{
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
 		.col-md-6{
 			width: 100%;
+		}
+		.col-md-4, .col-md-3{
+			max-width: 100%;
 		}
 		.col-md-6 h3{
 			text-align: center;
@@ -1456,8 +1475,72 @@ footer a:hover{
 		.section-intro h5{
 			font-size: 2rem;
 		}
+		.tab-full{
+			margin: 0 auto;
+		}
 
+		#portfolio, #contact{
+			padding-top: 10px;
+		}
+		.intro-info{
+			display: flex;
+			flex-direction:column;
+			}
+		.intro-info img{
+			margin:0 auto;
+			width: 65%;
+			height: auto;
+		}
+		.intro-info p {
+			width: 100%;
+			display: block;
+		}
+		.services{
+			width: auto;
+			max-width: 100%;
+			padding-bottom: 10px;
+			margin-right: 30px;
+			margin-left: 30px;
+		}
+		.services-wrap{
+			width: 75%;
+			margin: 0 auto;
+		}
+		.services-wrap p{
+			font-size: 16px;
+		}
+		fieldset{
+		width: 100%;
 
-
-
+		}
+		.more-cont{
+			display: block;
+			padding-top: 30px;	
+			}
+			.more-cont>div {
+			    width: auto;
+			    margin: 0 0;
+			    height: auto;
+			}
+		.loc, .num, .soc{
+			width: 100%;
+			max-width: 100%;
+			padding: 0;
+			margin: 0;
+			margin-right: 0!important;
+			margin-right: 0!important;
+		}
+		.icons{
+			padding-top: 1rem;
+		}
+		.more-cont h4{
+			padding-top: 0;
+			margin-top: 0;
+		}
+		.more-cont p{
+			font-size: 18px;
+		}
+		#footer{
+			font-size: 14px;
+		}
 }
