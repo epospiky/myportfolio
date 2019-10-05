@@ -1089,6 +1089,7 @@ transition:0.4s ease-in-out;
 	font-weight: 300;
 	font-size: 2em;
 	color: #EE82EE;
+	overflow: hidden;
 }
 
 .block-title:before, .block-title:after{
@@ -1096,7 +1097,7 @@ transition:0.4s ease-in-out;
 	background: #EE82EE;
 	height: 1px;
 	width: 35%;
-
+	overflow: hidden;
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
@@ -1106,11 +1107,13 @@ transition:0.4s ease-in-out;
 .block-title:before{
 	right: 0.5rem;
 	 margin-left: -35%;
+	 overflow: hidden;
 
 }
 .block-title:after{
 	 margin-right: -35%;
 	 left: 0.5em;
+	 overflow: hidden;
 }
 
 /*
@@ -1353,6 +1356,7 @@ button.submitform:hover{
 footer{
 	width: 100%;
 	height: 4rem;
+	display: block;
 	vertical-align: center;
 	text-align: center;
 	margin-top: 2rem;
@@ -1413,13 +1417,31 @@ footer a:hover{
 *********************************************/
 
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:768px) {
 	html {
 		font-size: 9.411764705882353px;
 	}
+
+		#portfolio .col-md-4{
+		width: 50%;
+		
+	}
+	#intro{
+	height: 100vh;
+	}
+		.col-md-6{
+			width: 50%;
+		}
+		.col-md-4, .col-md-3{
+			max-width: 50%;
+		}
+		.col-md-3{
+			margin-bottom: 10px;
+		}
+
 }
 
-@media only screen and (max-width:746px) {
+@media only screen and (max-width:600px) {
 	#portfolio .col-md-4{
 		width: 100%;
 		
@@ -1543,4 +1565,5 @@ footer a:hover{
 		#footer{
 			font-size: 14px;
 		}
+	
 }
